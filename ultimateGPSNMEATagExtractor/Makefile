@@ -6,5 +6,5 @@ compile:clean
 	g++ src/*.cpp -o program
 
 clean:
-	rm -f program
+	rm -f program processedGpsData.txt
 	clear
