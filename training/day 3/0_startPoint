@@ -1,0 +1,54 @@
+Schedule:
+
+Start downloads & installation & workflow:
+    codeblocks compiler
+    goo.gl/uGKc4O
+
+    We'll code on a desktop today, then add the extra complicated layer of a smaller computer tomorrow.
+
+    Today we'll cover features of the C++ programming language.
+
+    C++ programs are instructions for computers to carry out
+
+    The weakness is, computers don't know what you INTEND! They only do EXACTLY WHAT YOU TELL THEM!
+
+
+
+
+    How programming actually works, we already know plainly well that computers think in binary, not english.
+
+    High level languages like C++ are built up to be able to represent computer functions using more human understandable.
+
+    C++ is a high level language that is written, and then it is 'compiled' or translated into binary.
+
+    During this translation or 'compilation' the code syntax, equivalent to a speaking language punctuation, is checked to make sure it's correct.
+
+    Assuming the syntax is correct, the code is compiled into a binary file that is optimized for the processor that will run the program.
+
+
+
+
+
+    Workflow:
+        1. What is the problem?
+        2. Design program flow (conceptual steps)
+        3. Write code
+        4. Compile code
+        5. Run program
+        6. Observe program behavior / compare to expected behavior.
+        7. Debug / modify code to fit expectations
+        8. repeat 4 - 6 until program exhibits desired functions.
+
+
+
+
+hello world:
+    We'll deconstruct a basic "hello world"
+    hello world programs are used for
+        demonstrating the action of compiling
+
+
+
+
+
+Revisiting data types
