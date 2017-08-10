@@ -1,0 +1,22 @@
+redownload github
+
+parts for today:
+    photocell
+    lcd screen
+    thermistor
+    RGB LED
+    passive buzzer
+    humidity sensor
+    ds18b20 digital temp sensor
+
+photo cell experiment. Show how to convert voltage.
+
+LCD screen & I2C explaination
+
+temp detection by thermistorw/ screen
+
+RGB LED w/ buzzer
+
+humidity w/ thermistor and LCD
+
+ds18b20 digital temp sensor
