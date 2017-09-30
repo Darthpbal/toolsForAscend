@@ -13,7 +13,7 @@ LiquidCrystal_I2C lcd(0x27,16,2);  // set the LCD address to 0x27 for a 16 chars
 
 dht DHT;//create a variable type of dht
 
-const int DHT11_PIN= 7;//Humiture sensor attach to pin7
+const int DHT11_PIN= 3;//Humiture sensor attach to pin7
 
 
 #define analogPin  A0 //the thermistor attach to 
@@ -61,10 +61,10 @@ void loop()
   lcd.setCursor(0, 0);
   lcd.print("Tem:");
   //Serial.print("Tem:");
-  lcd.print(tempF,1); //print the temperature on lcd
+  lcd.print(DHT.temperature * 1.8 + 32.0,1); //print the temperature on lcd
   // Serial.print(DHT.temperature,1);
   lcd.print(char(223));//print the unit" ℃ "
-  lcd.print("C");
+  lcd.print("F");
   // Serial.println(" C");
   lcd.setCursor(0, 1);
   lcd.print("Hum:");
