@@ -19,14 +19,25 @@ void loop()
 {
   long a =1023 - analogRead(analogPin);  //read thermistor value 
   Serial.print("Raw reading ");
-  Serial.println(a); 
+  Serial.print(a); 
   //the calculating formula of temperature
   float tempC = beta /(log((1025.0 * 10 / a - 10) / 10) + beta / 298.0) - 273.0;
   float tempF = 1.8*tempC + 32.0;
-  Serial.print("Centigrade ");
-  Serial.println(tempC); 
-  Serial.print("Fahrenheit ");
-  Serial.println(tempF); 
+  Serial.print("\tCentigrade ");
+  Serial.print(tempC); 
+  Serial.print("\tFahrenheit ");
+  Serial.print(tempF); 
+
+  Serial.print("\tRaw reading ");
+   a =1023 - analogRead(A1);  //read thermistor value 
+  Serial.print(a); 
+  //the calculating formula of temperature
+   tempC = beta /(log((1025.0 * 10 / a - 10) / 10) + beta / 298.0) - 273.0;
+   tempF = 1.8*tempC + 32.0;
+  Serial.print("\tCentigrade ");
+  Serial.print(tempC); 
+  Serial.print("\tFahrenheit ");
+  Serial.print(tempF); 
   Serial.println("");
 
   // Print a message of "Temp: "to the LCD.
